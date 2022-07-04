@@ -498,6 +498,7 @@ hr {
 .aside-grid__row-item-button {
   background: #0278ed;
   border-radius: 4px;
+  border: 0px;
 }
 .aside-grid__row-item-button p {
   font-weight: 400;
@@ -535,3 +536,223 @@ hr {
 .aside-grid__row-item-price.Lifetime {
   color: #ff9209;
 }
+/* end section 7 */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: #f2f2f2;
+}
+.wrapper__container {
+  padding: 100px 120px 100px 120px;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper__container-discriprion__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #222222;
+}
+
+.wrapper__container-discriprion h6 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #222222;
+  padding-bottom: 15px;
+}
+
+.wrapper__container-discriprion__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 41px;
+}
+
+.wrapper__container-comments {
+  display: flex;
+  gap: 16px;
+}
+.wrapper__container-comments__list {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.wrapper__container-inner {
+  padding: 30px 30px 30px 30px;
+}
+
+.wrapper__container-text {
+  padding-bottom: 20px;
+  padding-right: 7px;
+}
+.wrapper__container-text p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #222222;
+}
+.wrapper__container-items {
+  display: flex;
+  gap: 10px;
+}
+
+.wrapper__container-items__name p:nth-child(1) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+.wrapper__container-items__name p:nth-child(2) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+/* end section 8 */
+.box {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: #ffffff;
+}
+.box-container {
+  padding: 100px 120px 140px 120px;
+  font-family: "Poppins", sans-serif;
+}
+
+.box-container p:nth-child(1) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #222222;
+  padding: 5px;
+}
+.box-container p:nth-child(3) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 26px;
+  padding-right: 305px;
+  padding-left: 305px;
+}
+.box-container h6 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #222222;
+  padding-bottom: 14px;
+}
+.box-container__img {
+  padding-right: 511px;
+  padding-left: 511px;
+}
+/* end section 9 */
+
+.row {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: #e5e5e5;
+}
+
+.row-discription {
+  padding: 110px 120px 100px 120px;
+}
+.row-disctiption__title {
+  padding: 0px 926px 42px 16px;
+  font-family: "Poppins", sans-serif;
+}
+.row-disctiption__title h6 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #222222;
+  padding-bottom: 13px;
+}
+
+.row-disctiption__title p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #222222;
+}
+.row-discription__desc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.row-disctiption__desc-text p:nth-child(1) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+  padding-bottom: 10px;
+}
+.row-disctiption__desc-text p:nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.row-disctiption__desc-text {
+  width: 33em;
+  padding: 0px 16px 34px 0px;
+}
+/* end section 10 */
+
+.footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: #f2f2f2;
+}
+
+.foooter__inner {
+  padding: 100px 136px 100px 136px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__inner-logo {
+  padding: 0px 545px 13px 547px;
+}
+.footer__inner-items {
+  display: flex;
+  gap: 30px;
+  padding: 0px 200px 25px 543px;
+}
+.footer__inner-desc {
+  display: flex;
+  padding: 0px 306px 0px 319px;
+}
+.footer__inner-desc p:nth-child(odd) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+.footer__inner-desc p:nth-child(even) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+}
+/* end footer */
